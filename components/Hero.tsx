@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Button from "./Button";
+import AssemblePhoto from "./AssemblePhoto";
 
 export default function Hero() {
   return (
@@ -36,20 +36,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="reveal mx-auto w-full max-w-sm" style={{ animationDelay: "150ms" }}>
-          <div className="relative">
-            <div
-              aria-hidden
-              className="absolute -inset-3 rounded-3xl bg-gradient-to-tr from-accent/20 to-accent2/20 blur-xl"
-            />
-            <Image
-              src="/marcus.jpg"
-              alt="Marcus Marincek"
-              width={480}
-              height={600}
-              priority
-              className="relative rounded-3xl border border-line object-cover"
-            />
-          </div>
+          <AssemblePhoto />
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "./Button";
 
 export default function Hero() {
   return (
@@ -28,20 +29,10 @@ export default function Hero() {
             floor + production AI: a rare combination that makes solutions work in the real world.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a
-              href="#work"
-              className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-ink transition-transform hover:scale-[1.03]"
-            >
-              See production results
-            </a>
-            <a
-              href="https://www.linkedin.com/in/mvmarincek"
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-full border border-line px-6 py-3 text-sm text-muted transition-colors hover:border-accent hover:text-accent"
-            >
+            <Button href="#work">See production results →</Button>
+            <Button href="https://www.linkedin.com/in/mvmarincek" variant="ghost" external>
               LinkedIn ↗
-            </a>
+            </Button>
           </div>
         </div>
         <div className="reveal mx-auto w-full max-w-sm" style={{ animationDelay: "150ms" }}>

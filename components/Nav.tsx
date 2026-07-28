@@ -26,7 +26,7 @@ export default function Nav() {
         </ul>
         <a
           href="mailto:mvmarincek@gmail.com"
-          className="rounded-full border border-accent/40 px-4 py-1.5 text-sm text-accent transition-colors hover:bg-accent hover:text-ink"
+          className="rounded-full bg-gradient-to-r from-accent to-emerald-300 px-5 py-2 text-sm font-semibold text-ink shadow-[0_0_20px_-6px_rgba(110,231,183,0.5)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_6px_28px_-6px_rgba(110,231,183,0.65)] active:scale-95"
         >
           Let's talk
         </a>

@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function Contact() {
   return (
     <section id="contact" className="border-t border-line bg-panel/30">
@@ -12,26 +14,13 @@ export default function Contact() {
           Engineer, Agentic AI Engineer, Control & Automation Engineer, IT/OT Specialist
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          <a
-            href="mailto:mvmarincek@gmail.com"
-            className="rounded-full bg-accent px-8 py-3.5 text-sm font-semibold text-ink transition-transform hover:scale-[1.03]"
-          >
-            mvmarincek@gmail.com
-          </a>
-          <a
-            href="https://www.linkedin.com/in/mvmarincek"
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-full border border-line px-8 py-3.5 text-sm text-muted transition-colors hover:border-accent hover:text-accent"
-          >
+          <Button href="mailto:mvmarincek@gmail.com">mvmarincek@gmail.com</Button>
+          <Button href="https://www.linkedin.com/in/mvmarincek" variant="ghost" external>
             LinkedIn ↗
-          </a>
-          <a
-            href="tel:+5516994223527"
-            className="rounded-full border border-line px-8 py-3.5 text-sm text-muted transition-colors hover:border-accent hover:text-accent"
-          >
+          </Button>
+          <Button href="tel:+5516994223527" variant="ghost">
             +55 16 99422-3527
-          </a>
+          </Button>
         </div>
       </div>
       <footer className="border-t border-line py-8 text-center font-mono text-xs text-muted">

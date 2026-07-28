@@ -1,0 +1,66 @@
+import Image from "next/image";
+
+export default function Hero() {
+  return (
+    <section id="top" className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -top-40 left-1/2 h-[500px] w-[800px] -translate-x-1/2 rounded-full bg-accent2/10 blur-3xl"
+      />
+      <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-[1.2fr_0.8fr]">
+        <div className="reveal">
+          <p className="mb-4 flex items-center gap-2 font-mono text-xs tracking-widest text-accent">
+            <span className="live-dot inline-block h-2 w-2 rounded-full bg-accent" />
+            AVAILABLE FOR REMOTE · WORLDWIDE
+          </p>
+          <h1 className="text-4xl font-bold leading-tight tracking-tight md:text-6xl">
+            Marcus
+            <br />
+            Marincek
+          </h1>
+          <p className="mt-6 max-w-xl text-lg text-muted md:text-xl">
+            Agentic AI Engineer. I build AI projects{" "}
+            <span className="text-gray-100">from zero</span> and deliver them{" "}
+            <span className="text-accent">deployed in production</span> — not in PowerPoint.
+          </p>
+          <p className="mt-4 max-w-xl text-sm text-muted">
+            20+ years of engineering · 5 AI platforms shipped to production in 2026 · Factory
+            floor + production AI: a rare combination that makes solutions work in the real world.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-4">
+            <a
+              href="#work"
+              className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-ink transition-transform hover:scale-[1.03]"
+            >
+              See production results
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mvmarincek"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-line px-6 py-3 text-sm text-muted transition-colors hover:border-accent hover:text-accent"
+            >
+              LinkedIn ↗
+            </a>
+          </div>
+        </div>
+        <div className="reveal mx-auto w-full max-w-sm" style={{ animationDelay: "150ms" }}>
+          <div className="relative">
+            <div
+              aria-hidden
+              className="absolute -inset-3 rounded-3xl bg-gradient-to-tr from-accent/20 to-accent2/20 blur-xl"
+            />
+            <Image
+              src="/marcus.jpg"
+              alt="Marcus Marincek"
+              width={480}
+              height={600}
+              priority
+              className="relative rounded-3xl border border-line object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

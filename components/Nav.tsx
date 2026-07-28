@@ -1,4 +1,5 @@
 const links = [
+  { label: "Impact", href: "#impact" },
   { label: "Work", href: "#work" },
   { label: "Stack", href: "#stack" },
   { label: "Experience", href: "#experience" },

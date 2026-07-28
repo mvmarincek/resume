@@ -195,7 +195,7 @@ export default function Metrics() {
   const { ref, inView } = useInView();
 
   return (
-    <section className="border-y border-line bg-panel/40">
+    <section id="impact" className="border-y border-line bg-panel/40">
       <div ref={ref} className="mx-auto max-w-6xl px-6 py-14">
         <div className="mb-8 flex items-center justify-between">
           <p className="font-mono text-xs tracking-widest text-accent">

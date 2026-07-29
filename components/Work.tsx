@@ -46,7 +46,7 @@ export default function Work() {
     <section id="work" className="mx-auto max-w-6xl px-6 py-24">
       <p className="font-mono text-xs tracking-widest text-accent">(01) — PRODUCTION WORK</p>
       <h2 className="mt-4 max-w-2xl text-3xl font-bold tracking-tight md:text-4xl">
-        Five AI platforms. Live in production. Measurable results.
+        Five AI platforms shipped in 2026. Live in production. Measurable results.
       </h2>
       <p className="mt-4 max-w-2xl text-muted">
         All agentic systems engineered with token optimization — lower inference cost, lower

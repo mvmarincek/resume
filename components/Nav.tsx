@@ -11,7 +11,7 @@ export default function Nav() {
     <header className="fixed top-0 inset-x-0 z-50 border-b border-line/60 bg-ink/80 backdrop-blur-md">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#top" className="font-mono text-sm tracking-widest text-accent">
-          mvm<span className="text-muted">.ai</span>
+          mvmarincek<span className="text-muted">.ai</span>
         </a>
         <ul className="hidden gap-8 md:flex">
           {links.map((l) => (

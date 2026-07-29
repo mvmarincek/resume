@@ -16,8 +16,8 @@ type Stat = {
 
 const stats: Stat[] = [
   {
-    label: "AI PLATFORMS IN PROD",
-    unit: "2026",
+    label: "AI PLATFORMS IN PROD (2026)",
+    unit: "shipped to production",
     target: 5,
     delta: "▲ 5 shipped",
     deltaUp: true,
